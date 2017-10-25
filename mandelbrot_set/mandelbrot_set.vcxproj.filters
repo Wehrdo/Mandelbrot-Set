@@ -26,5 +26,8 @@
     <ClInclude Include="color_conversion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="drawMandelbrot.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

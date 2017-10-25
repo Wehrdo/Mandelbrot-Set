@@ -114,7 +114,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\dawehr\Development\fractals\mpfrc++-3.6.2;C:\Users\dawehr\Development\SFML-2.4.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dawehr\Development\SFML-2.4.2\include;C:\Users\dawehr\Development\fractals\mpir\lib\x64\Release;C:\Users\dawehr\Development\fractals\mpfr\lib\x64\Release;C:\Users\dawehr\Development\fractals\mpfrc++_9ef1fc459291;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -129,6 +129,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="color_conversion.h" />
+    <ClInclude Include="drawMandelbrot.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
